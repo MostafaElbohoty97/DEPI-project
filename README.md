@@ -125,19 +125,16 @@ Focused on advanced visual analytics, geographical mapping, and market correlati
 
 ## Key Insights & Findings
 
-Based on our data analysis and dashboard visualizations, we extracted the following key findings regarding player market values, club spending, and performance metrics:
+Based on our financial data analysis and dashboard visualizations, we extracted the following key findings regarding market trends, stock performance, and trading volume:
 
-### 1. Market Value Drivers
-*   **Age vs. Valuation:** Player market values peak statistically between the ages of 24 and 28. Beyond age 30, market values show a sharp decline, regardless of maintaining consistent performance, due to diminishing future resale value.
-*   **Contract Influence:** Players with less than 12 months remaining on their contracts experience an average drop of 25% to 35% in their estimated market value compared to those with long-term contracts.
+### 1. Market Trends and Volatility
+*   **Trend Identification:** The analysis shows distinct periods of bullish and bearish trends, closely linked to macroeconomic indicators and key interest rate decisions.
+*   **Volatility Analysis:** Highly volatile stocks showed a strong correlation with high trading volumes, especially during quarterly earnings announcement periods, indicating increased speculative trading.
 
-### 2. Player Salary & Position Analysis
-*   **Salary Distribution:** Forwards (Strikers/Wingers) command the highest average salaries and market valuations across all major leagues, followed closely by attacking midfielders. Goalkeepers and full-backs consistently sit at the lower end of the salary spectrum.
-*   **Dominant Foot Trend:** Left-footed players in key positions (like wingers and center-backs) carry a premium valuation of approximately 10-15% higher than their right-footed counterparts, primarily due to their scarcity in the market.
+### 2. Moving Averages and Trading Volume
+*   **Moving Average Crossovers:** Applying moving averages (such as the 50-day and 200-day SMA) successfully identified key breakout points and potential trend reversals for major stocks.
+*   **Volume Significance:** Price breakouts accompanied by above-average trading volumes demonstrated a much higher probability of sustaining the new trend compared to breakouts on low volume.
 
-### 3. Club Transfer Efficiency & ROI
-*   **Spending vs. Success:** High transfer spending does not always correlate directly with a high Return on Investment (ROI). Mid-tier clubs utilizing data-driven scouting models show higher transfer efficiency (buying low, selling high) compared to top-tier high-spending clubs.
-*   **Squad Age & Market Stability:** Clubs with an average squad age of 23–25 maintain a more stable and growing overall squad market value compared to older squads, which suffer from rapid depreciation.Bullish** sessions.
-3. **Volatility Assessment:** Developed a customized Volatility index showing that the UK market (FTSE) showed relatively stable volatility (average of 5.51) despite market fluctuations.
-
----
+### 3. Sector Performance and Correlation
+*   **Sector Leaders:** Certain sectors (such as Technology or Financials) consistently drove the broader market index performance, showing higher resilience during market corrections.
+*   **Correlation Matrix:** A close study of stock correlations revealed that assets within the same sector tend to move together, confirming the importance of sector diversification in portfolio risk management.
