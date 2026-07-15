@@ -83,6 +83,9 @@ Focused on data modeling, interactive layouts, and dynamic KPI tracking using DA
 
 ### Phase 2: Excel
 
+<p align="center">
+ <img width="863" height="472" alt="1000202909" src="https://github.com/user-attachments/assets/2ea128ee-4d98-4998-9492-ac3b60257ead" />
+
 ### Stock Market and Financial Insights Dashboard
 
 This project features an interactive, dynamic Excel Dashboard designed to analyze global stock market trends, financial performance, and volatility. The dashboard is built on a dynamic architecture where all visualizations update instantly based on user interaction.
@@ -129,6 +132,10 @@ These components allow the user to isolate and display specific subsets of data 
 
 ##### 3. Financial Insights Metrics
 
+<p align="center">
+ <img width="758" height="452" alt="1000202910" src="https://github.com/user-attachments/assets/99f73c72-7f3e-48ed-b84f-dd808f5e1015" />
+
+
 This section is dedicated entirely to evaluating the corporate and financial performance of indices and companies:
 
 * **Revenue Comparison:**
@@ -157,12 +164,6 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 ##### Pivot Charts
 * All visual charts on the dashboard are Pivot Charts directly linked to their respective Pivot Tables.
 * Any change made to the filters (Slicers) or the underlying dataset automatically updates the Pivot Tables and refreshes all charts instantly.
-
-#### Excel Dashboard Showcase:
-<p align="center">
- <img width="863" height="472" alt="1000202909" src="https://github.com/user-attachments/assets/2ea128ee-4d98-4998-9492-ac3b60257ead" />
-
- <img width="758" height="452" alt="1000202910" src="https://github.com/user-attachments/assets/99f73c72-7f3e-48ed-b84f-dd808f5e1015" />
 
 </p>
 
