@@ -62,13 +62,96 @@ The dataset consists of **13,050+ rows** of historical daily stock market record
 ## Project Implementation & Tooling
 
 ### Phase 1: Power BI
-Focused on data modeling, interactive layouts, and dynamic KPI tracking using DAX calculations.
-* **Core KPIs & Measures Tracked:**
-  * `Total Markets` (Distinct Count of Stock Indices)
-  * `Average Close Price`
-  * `Max Close Price`
-  * `Min Close Price`
-  * `Market Sentiment Ratio` (Bullish vs. Bearish distribution)
+
+This project features an interactive Power BI dashboard designed to analyze global stock market trends by studying financial index data across multiple countries[cite: 3]. It assists investors and data analysts in tracking market movements, comparing performance across countries, and analyzing trading volumes, returns, and price trends over time[cite: 3].
+
+The dashboard is built with fully interactive elements, allowing users to seamlessly filter data by country, year, month, or index name to extract key insights and drive data-backed investment decisions[cite: 3].
+
+---
+
+#### Key Performance Indicators (KPIs) & DAX Measures
+
+The dashboard utilizes specialized DAX measures to calculate critical financial metrics dynamically:
+
+##### 1. Total Markets
+* **Formula:** `Total Markets = DISTINCTCOUNT(Sheet1[Index_Name])`[cite: 3]
+* **Description:** Calculates the total number of unique stock markets or indices present in the dataset[cite: 3].
+* **Value:** Helps track the scale of the dataset and the number of active markets under analysis[cite: 3].
+
+##### 2. Average Close Price
+* **Formula:** `Average Close = AVERAGE(Sheet1[Close])`[cite: 3]
+* **Description:** Calculates the average closing price across selected records[cite: 3].
+* **Value:** Measures the overall average baseline performance of indices during the selected period[cite: 3].
+
+##### 3. Max Close
+* **Formula:** `Max Close = MAX(Sheet1[Close])`[cite: 3]
+* **Description:** Calculates the highest closing price recorded[cite: 3].
+* **Value:** Pinpoints the peak value achieved by the stock index within the filtered timeframe[cite: 3].
+
+##### 4. Min Close
+* **Formula:** `Min Close = MIN(Sheet1[Close])`[cite: 3]
+* **Description:** Calculates the lowest closing price recorded[cite: 3].
+* **Value:** Identifies the minimum baseline value recorded for the index[cite: 3].
+
+##### 5. Average Return
+* **Formula:** `Average Return = AVERAGE(Sheet1[Daily_Return])`[cite: 3]
+* **Description:** Calculates the average daily return[cite: 3].
+* **Value:** Evaluates the overall average profitability or loss rate of the selected indices[cite: 3].
+
+##### 6. Total Volume
+* **Formula:** *Standard Sum aggregation on the Volume column*[cite: 3]
+* **Description:** Calculates the total cumulative trading volume[cite: 3].
+* **Value:** Measures overall market activity, transaction density, and trading liquidity[cite: 3].
+
+---
+
+#### Dashboard Interactive Filters (Slicers)
+
+* **Slicer (Index Name):** Filters all visuals to focus on a specific stock index's performance[cite: 3].
+* **Slicer (Month):** Enables month-by-month historical analysis[cite: 3].
+* **Slicer (Year):** Filters the dataset to display annual performance[cite: 3].
+* **Slicer (Country):** Filters the dashboard to display metrics for a specific country[cite: 3].
+
+---
+
+#### Visualizations & Analytical Insights
+
+##### 1. Market Trend Analysis
+* **Close Price Over Time (Area Chart):**
+  * **Description:** Visualizes the fluctuations of the average closing price across years[cite: 3].
+  * **Value:** Tracks long-term market trends to quickly determine if the market is overall growing, declining, or consolidating[cite: 3].
+
+##### 2. Country & Index Comparisons
+* **Top Countries by Average Close (Clustered Column Chart):**
+  * **Description:** Compares the average closing prices across different countries[cite: 3].
+  * **Value:** Instantly identifies the leading global markets by closing price and simplifies international index comparison[cite: 3].
+
+##### 3. Market Sentiment Distribution
+* **Bullish vs. Bearish (Donut Chart):**
+  * **Description:** Displays the percentage distribution of the market status (rising vs. falling)[cite: 3].
+  * **Value:** Provides a high-level snapshot of global market sentiment, showing the exact ratio of bullish versus bearish days[cite: 3].
+
+##### 4. Geographic Analysis
+* **Average Close by Country (Azure Map):**
+  * **Description:** Plots countries on a global map, where bubble sizes correspond to their average closing price[cite: 3].
+  * **Value:** Offers a geographical overview of market performances, visually emphasizing stronger economic zones[cite: 3].
+
+##### 5. Liquidity & Trading Strength
+* **Total Volume by Country (Treemap):**
+  * **Description:** Represents the total trading volume for each country using sized tiles[cite: 3].
+  * **Value:** Easily distinguishes which countries hold the largest shares of market liquidity and trading activity[cite: 3].
+
+##### 6. Return Evaluation
+* **Average Daily Return (%) by Country (Clustered Column Chart):**
+  * **Description:** Compares the average daily return percentages across countries[cite: 3].
+  * **Value:** Rates the performance of each country based on returns, highlighting the most profitable and the weakest markets[cite: 3].
+
+##### 7. Granular Data Reference
+* **Performance Summary (Table):**
+  * **Description:** Displays a comprehensive tabular view of each country alongside its key metrics: *Total Volume*, *Average Return*, *Average Close*, and *Average Volatility*[cite: 3].
+  * **Value:** Serves as a reference table that supports visual insights with precise, numeric details[cite: 3].
+
+---
 
 #### Power BI Dashboard Showcase:
 <p align="center">
