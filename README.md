@@ -1,5 +1,6 @@
 # Global Stock Market Analysis 
----
+
+
 
 ### Graduation Project | Digital Egypt Pioneers Initiative (DEPI) - Data Analysis Track
 
@@ -45,7 +46,7 @@ The dataset consists of **13,050+ rows** of historical daily stock market record
 
 ## Project Implementation & Tooling
 
-### Phase 1: Microsoft Excel
+### Phase 1: Excel
 Focused on data engineering, cleaning, and calculating core market metrics using Power Query and Excel formulas.
 * **Core KPIs & Metrics Tracked:**
   * `Daily Return` (Day-over-day price change percentage)
@@ -54,15 +55,15 @@ Focused on data engineering, cleaning, and calculating core market metrics using
 
 #### Excel Dashboard Showcase:
 <p align="center">
- <img width="1280" height="719" alt="1000202909" src="https://github.com/user-attachments/assets/3c9c4c83-139e-48fb-800d-189996d586fb" />
- <img width="1280" height="712" alt="1000202910" src="https://github.com/user-attachments/assets/d222b0c6-6278-4b6f-ac6d-5f4d36b7f011" />
+ <img width="863" height="472" alt="1000202909" src="https://github.com/user-attachments/assets/2ea128ee-4d98-4998-9492-ac3b60257ead" />
 
+ <img width="758" height="452" alt="1000202910" src="https://github.com/user-attachments/assets/99f73c72-7f3e-48ed-b84f-dd808f5e1015" />
 
 </p>
 
 ---
 
-### Phase 2: Microsoft Power BI
+### Phase 2: Power BI
 Focused on data modeling, interactive layouts, and dynamic KPI tracking using DAX calculations.
 * **Core KPIs & Measures Tracked:**
   * `Total Markets` (Distinct Count of Stock Indices)
@@ -73,12 +74,16 @@ Focused on data modeling, interactive layouts, and dynamic KPI tracking using DA
 
 #### Power BI Dashboard Showcase:
 <p align="center">
-  <img src="assets/powerbi-dashboard.png" alt="Power BI Dashboard" width="90%">
+  <img width="1198" height="670" alt="1000202908" src="https://github.com/user-attachments/assets/a10419ea-d291-41e2-84de-9b3a7d4a407d" />
+  <img width="1151" height="656" alt="1000202907" src="https://github.com/user-attachments/assets/59cb84f7-07b5-4146-b0a3-71d544a32596" />
+<img width="1147" height="671" alt="1000202906" src="https://github.com/user-attachments/assets/9b44f478-05ea-4fe4-92cc-d2bb9317a4e9" />
+
+
 </p>
 
 ---
 
-### Phase 3: Microsoft Tableau
+### Phase 3: Tableau
 Focused on advanced visual analytics, geographical mapping, and market correlation.
 * **Core KPIs & Visual Analysis:**
   * `Volume by Country` (Spatial liquidity tracking)
@@ -87,7 +92,10 @@ Focused on advanced visual analytics, geographical mapping, and market correlati
 
 #### Tableau Dashboard Showcase:
 <p align="center">
-  <img src="assets/tableau-dashboard.png" alt="Tableau Dashboard" width="90%">
+  <img width="1361" height="846" alt="1000202903" src="https://github.com/user-attachments/assets/acff6945-240f-4caf-8f90-1be449c75387" />
+<img width="1367" height="847" alt="1000202904" src="https://github.com/user-attachments/assets/3c378503-5217-4791-a457-d6351401358b" />
+<img width="1362" height="846" alt="1000202905" src="https://github.com/user-attachments/assets/844b8d90-d401-4526-842d-6d0e12aa0e43" />
+
 </p>
 
 ---
