@@ -86,7 +86,6 @@ Focused on data modeling, interactive layouts, and dynamic KPI tracking using DA
 <p align="center">
  <img width="863" height="472" alt="1000202909" src="https://github.com/user-attachments/assets/2ea128ee-4d98-4998-9492-ac3b60257ead" />
 
-### Stock Market and Financial Insights Dashboard
 
 This project features an interactive, dynamic Excel Dashboard designed to analyze global stock market trends, financial performance, and volatility. The dashboard is built on a dynamic architecture where all visualizations update instantly based on user interaction.
 
