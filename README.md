@@ -122,19 +122,7 @@ Focused on advanced visual analytics, geographical mapping, and market correlati
 </p>
 
 ---
-
 ## Key Insights & Findings
-
-Based on our financial data analysis and dashboard visualizations, we extracted the following key findings regarding market trends, stock performance, and trading volume:
-
-### 1. Market Trends and Volatility
-*   **Trend Identification:** The analysis shows distinct periods of bullish and bearish trends, closely linked to macroeconomic indicators and key interest rate decisions.
-*   **Volatility Analysis:** Highly volatile stocks showed a strong correlation with high trading volumes, especially during quarterly earnings announcement periods, indicating increased speculative trading.
-
-### 2. Moving Averages and Trading Volume
-*   **Moving Average Crossovers:** Applying moving averages (such as the 50-day and 200-day SMA) successfully identified key breakout points and potential trend reversals for major stocks.
-*   **Volume Significance:** Price breakouts accompanied by above-average trading volumes demonstrated a much higher probability of sustaining the new trend compared to breakouts on low volume.
-
-### 3. Sector Performance and Correlation
-*   **Sector Leaders:** Certain sectors (such as Technology or Financials) consistently drove the broader market index performance, showing higher resilience during market corrections.
-*   **Correlation Matrix:** A close study of stock correlations revealed that assets within the same sector tend to move together, confirming the importance of sector diversification in portfolio risk management.
+1. **Liquidity Distribution:** The US market dominates global liquidity with a massive Total Volume of **100.05B**, followed by Hong Kong and Japan.
+2. **Market Sentiment Equilibrium:** Historically, global markets display a highly balanced distribution of trend directions with approximately **50.67% Bearish** sessions vs. **49.33% Bullish** sessions.
+3. **Volatility Assessment:** Developed a customized Volatility index showing that the UK market (FTSE) showed relatively stable volatility (average of 5.51) despite market fluctuations.
