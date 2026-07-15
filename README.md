@@ -1,6 +1,4 @@
-# Global Stock Market Analysis <img width="1280" height="712" alt="1000202910" src="https://github.com/user-attachments/assets/c40a59f1-8583-4694-8d0d-04479eaf03ac" />
-<img width="1280" height="712" alt="1000202910" src="https://github.com/user-attachments/assets/4e5e09f2-1e8c-40e1-aee5-c1ee82c5bc4d" />
-
+# Global Stock Market Analysis 
 ### Graduation Project | Digital Egypt Pioneers Initiative (DEPI) - Data Analysis Track
 
 **Dataset Source:** [Kaggle - Daily Global Stock Market Indicators](https://www.kaggle.com/datasets/aliiihussain/daily-global-stock-market-indicators)
