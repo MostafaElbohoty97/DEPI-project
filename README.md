@@ -1,4 +1,4 @@
-# Global Stock Market Analysis Dashboard
+# Global Stock Market Analysis
 ### Graduation Project | Digital Egypt Pioneers Initiative (DEPI) - Data Analysis Track
 
 **Dataset Source:** [Kaggle - Daily Global Stock Market Indicators](https://www.kaggle.com/datasets/aliiihussain/daily-global-stock-market-indicators)
