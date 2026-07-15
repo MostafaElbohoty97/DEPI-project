@@ -20,16 +20,19 @@ The primary strategic and technical objectives of this project are:
 
 ##  Project Contributors
 
+##  Project Contributors
+
 We are pleased to introduce the team members collaborating on this project:
 
 | Full Name | GitHub Account |
-| :--- | :--- |
-| **Mostafa Mohamed Elbohoty** | [@MostafaElbohoty97](https://github.com/MostafaElbohoty97) |
+| :---: | :---: |
 | **Hazem Shady Nasr** | [@HazemShady](https://github.com/HazemShady) |
 | **Merna Elia Abdelmaboud** | [@mernaelia](https://github.com/mernaelia) |
+| **Mostafa Mohamed Elbohoty** | [@MostafaElbohoty97](https://github.com/MostafaElbohoty97) |
 | **Mohamed Sobhi Ibrahim** | [@mohamedabofoul](https://github.com/mohamedabofoul) |
 | **Injy Makarem Abd elmenaem** | [@injymakarem](https://github.com/injymakarem) |
 | **Ayatullah Ahmed Sallam** | [@AyatullahSallam](https://github.com/AyatullahSallam) |
+
 
 ---
 
