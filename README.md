@@ -1,7 +1,4 @@
-"# Global Stock
-Market Analysis" 
-# 📊 DEPI Graduation Project: [Global Stock
-Market Analysis]
+ # 📊 DEPI Graduation Project: [Global Stock Market Analysis]
 An interactive Data Analysis project developed as the graduation capstone for the **Digital Egypt Pioneers Initiative (DEPI)** - Data Analysis Track.
 
 ---
