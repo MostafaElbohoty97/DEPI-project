@@ -251,22 +251,156 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 
 ---
 ### Phase 3: Tableau
-Focused on advanced visual analytics, geographical mapping, and market correlation.
-* **Core KPIs & Visual Analysis:**
-  * `Volume by Country` (Spatial liquidity tracking)
-  * `Volatility vs. Volume` (Correlation scatter plots)
-  * `Historical Price Trends` (Time-series forecasting)
 
-#### Tableau Dashboard Showcase:
+# Global Stock Market Overview Dashboard
+
+## Dashboard 1: Global Market Overview
 <p align="center">
-  <img width="1361" height="846" alt="1000202903" src="https://github.com/user-attachments/assets/acff6945-240f-4caf-8f90-1be449c75387" />
-<img width="1367" height="847" alt="1000202904" src="https://github.com/user-attachments/assets/3c378503-5217-4791-a457-d6351401358b" />
-<img width="1362" height="846" alt="1000202905" src="https://github.com/user-attachments/assets/844b8d90-d401-4526-842d-6d0e12aa0e43" />
+ <img width="1361" height="846" alt="1000202903" src="https://github.com/user-attachments/assets/acff6945-240f-4caf-8f90-1be449c75387" />
 
-</p>
+### Tabs on this Dashboard
+
+- Market Performance by Country
+- Market Performance by Index
+- Avg Daily Change
+- Avg Daily Change%
+- Markets Up
+- Markets Down
+- Total Volume
+
+### Key Insights
+
+#### Market Performance by Country
+
+- Pakistan (KSE 100) has the strongest average daily performance overall.
+- Japan (Nikkei 225) has the weakest overall (-0.21%).
+
+#### Market Performance by Index
+
+- Ranking from best to worst: NASDAQ (+0.34%), KSE 100 (+0.30%), S&P 500 (+0.17%), DAX (+0.15%), Hang Seng (+0.10%), SSE Composite (+0.08%), CAC 40 (+0.07%), Dow Jones (-0.02%), FTSE 100 (-0.07%), Nikkei 225 (-0.21%).
+- The three US indices (NASDAQ, S&P 500, Dow Jones) land in very different places on the ranking, showing that indices from the same country can move very differently.
+
+#### Avg Daily Change
+
+- The monthly average moves up and down around the reference line without one clear long-term direction, consistent with data that behaves close to random day-to-day noise.
+
+#### Avg Daily Change%
+
+- Since most of the seven included indices posted a small positive average in this window, the overall card would read positive (green).
+
+#### Markets Up
+
+- Across the full dataset, up-days make up about 49% of all records.
+
+#### Markets Down
+
+- Down-days make up about 51% of all records across the full dataset.
+
+#### Total Volume
+
+- Total volume across all countries (full dataset) is roughly 266 billion units; the USA alone accounts for about 100 billion of that because it has three indices.
 
 ---
-## Key Insights & Findings
-1. **Liquidity Distribution:** The US market dominates global liquidity with a massive Total Volume of **100.05B**, followed by Hong Kong and Japan.
-2. **Market Sentiment Equilibrium:** Historically, global markets display a highly balanced distribution of trend directions with approximately **50.67% Bearish** sessions vs. **49.33% Bullish** sessions.
-3. **Volatility Assessment:** Developed a customized Volatility index showing that the UK market (FTSE) showed relatively stable volatility (average of 5.51) despite market fluctuations.
+
+## Dashboard 2: Performance Analysis
+<p align="center">
+ <img width="1362" height="846" alt="1000202905" src="https://github.com/user-attachments/assets/844b8d90-d401-4526-842d-6d0e12aa0e43" />
+ 
+**Purpose:** A deeper look at price movement (candlestick chart for the S&P 500), risk versus return across all indices, and the top/bottom performers, for the period 28 Apr 2020 – 8 Feb 2022.
+
+### Tabs on this Dashboard
+
+- CANDLESTICK
+- RISKS vs RETURNS
+- TOP GAINER KPI
+- TOP LOSER KPI
+- Highest Volatility
+
+### Key Insights
+
+#### CANDLESTICK
+
+- The S&P 500's close price in this dataset ranges from about 866 to 40,323, which is far outside its real historical range — a sign the price data here is simulated rather than a real feed.
+- The chart correctly demonstrates the candlestick technique (colour for direction, wick for daily range) regardless of the underlying data's realism.
+
+#### RISKS vs RETURNS
+
+- KSE 100 has the best combination in this window: the highest return (+0.22%) with comparatively low volatility (4.99).
+- Dow Jones has the worst combination: the lowest return (-0.19%) even though its volatility is also the lowest (4.72).
+- SSE Composite has the highest volatility of the group (5.74) with only a middling return.
+
+#### TOP GAINER KPI
+
+- KSE 100 is the Top Gainer in this window.
+
+#### TOP LOSER KPI
+
+- Nikkei 225 is the Top Loser in this window.
+
+#### Highest Volatility
+
+- The highest single volatility reading in this window is 94.46 — far above the typical 5.0–5.5 range seen in the index averages, showing a rare extreme spike exists somewhere in the data.
+
+---
+
+## Dashboard 3: Trading Activity & Risk
+<p align="center">  
+<img width="1367" height="847" alt="1000202904" src="https://github.com/user-attachments/assets/3c378503-5217-4791-a457-d6351401358b" />
+
+**Purpose:** Focuses on trading volume — which country and index trade the most, how volume trends over time, and whether volume relates to performance. This dashboard only includes the months of May and October across all five years.
+
+### Tabs on this Dashboard
+
+- Volume by Country
+- Volume Trend Over Time
+- Avg Volume Per Index
+- Most Active Country
+- Most Active Index
+- VOLUME vs DAILY CHANGE %
+
+### Key Insights
+
+#### Volume by Country
+
+- USA has by far the largest bubble (16.5 billion) — but this is mostly because the USA has three indices, not one, summed together.
+- Excluding that structural effect, the other seven countries are fairly close together, from about 5.1 to 5.8 billion.
+
+#### Avg Volume Per Index
+
+- Gives a fair per-index benchmark that isn't skewed by the USA having three indices, unlike the country-level total.
+
+#### Most Active Country
+
+- USA is the Most Active Country (16.5 billion) — again mainly because it has three indices combined into one total.
+
+#### Most Active Index
+
+- DAX is the Most Active single index (about 5.84 billion), narrowly ahead of Dow Jones (5.74 billion) and SSE Composite (5.64 billion) — a different answer than the country-level card because no single US index individually beats DAX.
+
+#### VOLUME vs DAILY CHANGE %
+
+- Higher trading volume does not necessarily correspond to better market performance.
+
+---
+
+## Key Insights & Performance Summary
+
+### Best and Worst Performers
+
+- Across the full 5-year dataset, KSE 100 (+0.13%/day) and Hang Seng (+0.08%/day) are the strongest average performers; Nikkei 225 (-0.21%/day) and Dow Jones (-0.16%/day) are the weakest.
+- In the shorter Performance Analysis window (Apr 2020–Feb 2022), KSE 100 is again the Top Gainer and Nikkei 225 is the Top Loser.
+
+### Volume and Country Comparisons
+
+- The USA appears as the top country by volume, but only because three US indices (Dow Jones, NASDAQ, S&P 500) are summed together.
+- DAX (Germany) is the single most active individual index by volume in the May/October sample, ahead of Dow Jones and SSE Composite.
+- Trading volume does not appear to predict performance; some high-volume indices underperformed while some lower-volume indices, like the S&P 500, outperformed.
+
+### Risk vs Return
+
+- KSE 100 offers the best combination of high return and comparatively low risk in the Performance Analysis window.
+- Dow Jones has the lowest volatility but also the lowest return, making it the weakest risk-adjusted performer in that window.
+- The highest single total volatility spike recorded anywhere in the dataset is 94.46 — much higher than the typical 5.0–5.5 average, showing rare extreme-risk days do occur even though average risk looks similar across indices.
+- The Risk vs. Return analysis demonstrates that higher volatility does not always produce greater returns.
+</p>
+
