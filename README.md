@@ -8,7 +8,7 @@
 ## Project Overview & Concept
 The **Global Stock Market Analysis** project is an end-to-end data analytics solution designed to ingest, clean, model, and visualize daily historical trading data of 10 major global stock indices (representing over 13,000 trading records). 
 
-The primary objective of this project is to transform raw market indicators into actionable financial insights. By tracking liquidity (volume), market sentiment (Bullish vs. Bearish), historical trends, and market volatility across different countries, the project provides a unified multi-tool analytics experience utilizing **Microsoft Excel**, **Microsoft Power BI**, and **Tableau**.
+The primary objective of this project is to transform raw market indicators into actionable financial insights. By tracking liquidity, market sentiment, historical trends, and volatility across different countries, the project provides a unified multi-tool analytics experience utilizing **Microsoft Excel**, **Microsoft Power BI**, and **Tableau**.
 
 ---
 
@@ -33,12 +33,58 @@ The dataset consists of **13,050+ rows** of historical daily stock market record
 
 ## Project Implementation & Tooling
 
-The project is structured into three distinct analytical phases:
-
-### Phase 1: Microsoft Excel (Data Engineering & Initial EDA)
-* **Data Cleaning & ETL:** Used **Power Query** to handle blank/null values, format column types, and standardize country names.
-* **Feature Engineering:** Created calculated columns for `Year`, `Month`, `Volatility`, and `Daily Return` using Excel formulas.
-* **Pivot Tables & Exploratory Data Analysis (EDA):** Built initial pivot tables to summarize trading volumes, identify outliers, and establish baseline averages for global markets.
+### Phase 1: Microsoft Excel
+Focused on data engineering, cleaning, and calculating core market metrics using Power Query and Excel formulas.
+* **Core KPIs & Metrics Tracked:**
+  * `Daily Return` (Day-over-day price change percentage)
+  * `Volatility` (Daily price fluctuation range)
+  * `Total Volume` (Overall market liquidity)
 
 #### Excel Dashboard Showcase:
-*(Insert your Excel Dashboard screenshots below)*
+<p align="center">
+  <img src="assets/excel-dashboard.png" alt="Excel Dashboard" width="90%">
+</p>
+
+---
+
+### Phase 2: Microsoft Power BI
+Focused on data modeling, interactive layouts, and dynamic KPI tracking using DAX calculations.
+* **Core KPIs & Measures Tracked:**
+  * `Total Markets` (Distinct Count of Stock Indices)
+  * `Average Close Price`
+  * `Max Close Price`
+  * `Min Close Price`
+  * `Market Sentiment Ratio` (Bullish vs. Bearish distribution)
+
+#### Power BI Dashboard Showcase:
+<p align="center">
+  <img src="assets/powerbi-dashboard.png" alt="Power BI Dashboard" width="90%">
+</p>
+
+---
+
+### Phase 3: Microsoft Tableau
+Focused on advanced visual analytics, geographical mapping, and market correlation.
+* **Core KPIs & Visual Analysis:**
+  * `Volume by Country` (Spatial liquidity tracking)
+  * `Volatility vs. Volume` (Correlation scatter plots)
+  * `Historical Price Trends` (Time-series forecasting)
+
+#### Tableau Dashboard Showcase:
+<p align="center">
+  <img src="assets/tableau-dashboard.png" alt="Tableau Dashboard" width="90%">
+</p>
+
+---
+
+## Key Insights & Findings
+1. **Liquidity Distribution:** The US market dominates global liquidity with a massive Total Volume of **100.05B**, followed by Hong Kong and Japan.
+2. **Market Sentiment Equilibrium:** Historically, global markets display a highly balanced distribution of trend directions with approximately **50.67% Bearish** sessions vs. **49.33% Bullish** sessions.
+3. **Volatility Assessment:** Developed a customized Volatility index showing that the UK market (FTSE) showed relatively stable volatility (average of 5.51) despite market fluctuations.
+
+---
+
+## How to Run and View the Project
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
