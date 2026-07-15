@@ -1,4 +1,5 @@
 # Global Stock Market Analysis 
+---
 
 ### Graduation Project | Digital Egypt Pioneers Initiative (DEPI) - Data Analysis Track
 
@@ -53,7 +54,6 @@ Focused on data engineering, cleaning, and calculating core market metrics using
 
 #### Excel Dashboard Showcase:
 <p align="center">
-  <img src="assets/excel-dashboard.png" alt="Excel Dashboard" width="90%">
  <img width="1280" height="719" alt="1000202909" src="https://github.com/user-attachments/assets/3c9c4c83-139e-48fb-800d-189996d586fb" />
  <img width="1280" height="712" alt="1000202910" src="https://github.com/user-attachments/assets/d222b0c6-6278-4b6f-ac6d-5f4d36b7f011" />
 
