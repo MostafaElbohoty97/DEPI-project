@@ -415,7 +415,7 @@ The Streamlit application is designed with sidebar filters (Country and Year) an
     *   **Risk vs. Return:** A Bubble Scatter Plot analyzing market volatility against daily returns, with bubble sizes reflecting trading volume.
     *   **Volume vs. Performance:** A Scatter Plot examining how total trading volume correlates with overall market performance.
 
-### 🚀 How to Run the App Locally
+###  How to Run the App Locally
 To run the Streamlit dashboard on your local machine, follow these steps:
 
 1. Navigate to the Python project directory:
