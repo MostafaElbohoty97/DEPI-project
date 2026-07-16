@@ -382,7 +382,49 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 - Higher trading volume does not necessarily correspond to better market performance.
 
 ---
+##  Phase 4: Python 
 
+In this phase, we leveraged Python to build an interactive, web-based dashboard to provide deep insights into global stock market trends, trading volumes, and volatility. The application was built to ensure high performance and an intuitive user experience using a custom dark theme.
+
+###  Technologies & Libraries Used
+*   **[Streamlit](https://streamlit.io/):** Used to build the interactive web application interface and manage dynamic user filters.
+*   **[Pandas](https://pandas.pydata.org/):** Utilized for loading the dataset, performing aggregations, and manipulating time-series data efficiently.
+*   **[Plotly](https://plotly.com/python/):** Powered the dynamic and interactive visualizations (Choropleth Maps, Treemaps, Candlestick charts, and Bubble charts).
+
+###  Dashboard Features & Architecture
+<p align="center">
+<img width="1600" height="818" alt="1" src="https://github.com/user-attachments/assets/14e1641e-c316-4503-8051-ad69ea6f165b" />
+<img width="1600" height="602" alt="2" src="https://github.com/user-attachments/assets/8884f8a6-38a3-4468-bee1-14b4d5d4bb45" />
+<img width="1600" height="669" alt="3" src="https://github.com/user-attachments/assets/3e87a6cd-5a57-4d2a-8541-4c34760ebbc8" />
+<img width="1600" height="474" alt="4" src="https://github.com/user-attachments/assets/9b8a7b5c-aac1-4208-b4a1-c55be26bca15" />
+
+
+The Streamlit application is designed with sidebar filters (Country and Year) and is divided into three main analytical tabs:
+
+1.  **Overview Tab:**
+    *   **KPI Metrics:** Highlights Total Volume, Avg Daily Change, and identifies the Top Gainer and Top Loser indices.
+    *   **Global Map (Choropleth):** Visualizes the average market close prices globally.
+    *   **Volume Trend:** An Area Chart tracking overall trading volume trends over time.
+
+2.  **Performance Tab:**
+    *   **Volume Treemap:** Showcases the hierarchical distribution of trading volumes by country and index.
+    *   **OHLC Candlestick Chart:** Provides detailed price movements (Open, High, Low, Close) for any selected index.
+    *   **Return Comparison:** A Bar Chart comparing average daily returns across different nations.
+
+3.  **Risk & Volume Tab:**
+    *   **Risk vs. Return:** A Bubble Scatter Plot analyzing market volatility against daily returns, with bubble sizes reflecting trading volume.
+    *   **Volume vs. Performance:** A Scatter Plot examining how total trading volume correlates with overall market performance.
+
+### 🚀 How to Run the App Locally
+To run the Streamlit dashboard on your local machine, follow these steps:
+
+1. Navigate to the Python project directory:
+   ```bash
+   cd path/to/python_dashboard_folder
+
+
+
+---
 ## Key Insights & Performance Summary
 
 ### Best and Worst Performers
