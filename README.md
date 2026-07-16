@@ -59,7 +59,7 @@ The dataset consists of **13,050+ rows** of historical daily stock market record
 
 ---
 
-## Project Implementation & Tooling
+# Project Implementation & Tooling
 
 ## Phase 1: Power BI
 
@@ -251,8 +251,6 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 
 ---
 ## Phase 3: Tableau
-
-# Global Stock Market Overview Dashboard
 
 ### Dashboard 1: Global Market Overview
 <p align="center">
