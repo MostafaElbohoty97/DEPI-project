@@ -61,7 +61,7 @@ The dataset consists of **13,050+ rows** of historical daily stock market record
 
 ## Project Implementation & Tooling
 
-### Phase 1: Power BI
+## Phase 1: Power BI
 
 This project features an interactive Power BI dashboard designed to analyze global stock market trends by studying financial index data across multiple countries. It assists investors and data analysts in tracking market movements, comparing performance across countries, and analyzing trading volumes, returns, and price trends over time.
 
@@ -153,7 +153,7 @@ The dashboard utilizes specialized DAX measures to calculate critical financial 
 
 ---
 
-#### Power BI Dashboard Showcase:
+### Power BI Dashboard Showcase:
 <p align="center">
   <img width="1198" height="670" alt="1000202908" src="https://github.com/user-attachments/assets/a10419ea-d291-41e2-84de-9b3a7d4a407d" />
   <img width="1151" height="656" alt="1000202907" src="https://github.com/user-attachments/assets/59cb84f7-07b5-4146-b0a3-71d544a32596" />
@@ -164,7 +164,7 @@ The dashboard utilizes specialized DAX measures to calculate critical financial 
 
 ---
 
-### Phase 2: Excel
+## Phase 2: Excel
 
 <p align="center">
  <img width="863" height="472" alt="1000202909" src="https://github.com/user-attachments/assets/2ea128ee-4d98-4998-9492-ac3b60257ead" />
@@ -172,7 +172,7 @@ The dashboard utilizes specialized DAX measures to calculate critical financial 
 
 This project features an interactive, dynamic Excel Dashboard designed to analyze global stock market trends, financial performance, and volatility. The dashboard is built on a dynamic architecture where all visualizations update instantly based on user interaction.
 
-#### Dashboard Overview
+### Dashboard Overview
 
 The dashboard serves as a unified interface that consolidates vital financial and market information into a single screen. It provides stakeholders with an interactive environment to explore data dynamically. 
 
@@ -212,7 +212,7 @@ These components allow the user to isolate and display specific subsets of data 
   * **Purpose:** Compares a specific value (such as Average Volume) for each stock index.
   * **Function:** Instantly highlights and identifies the best-performing index.
 
-##### 3. Financial Insights Metrics
+### 3. Financial Insights Metrics
 
 <p align="center">
  <img width="758" height="452" alt="1000202910" src="https://github.com/user-attachments/assets/99f73c72-7f3e-48ed-b84f-dd808f5e1015" />
@@ -250,11 +250,11 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 </p>
 
 ---
-### Phase 3: Tableau
+## Phase 3: Tableau
 
 # Global Stock Market Overview Dashboard
 
-## Dashboard 1: Global Market Overview
+### Dashboard 1: Global Market Overview
 <p align="center">
  <img width="1361" height="846" alt="1000202903" src="https://github.com/user-attachments/assets/acff6945-240f-4caf-8f90-1be449c75387" />
 
@@ -302,7 +302,7 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 
 ---
 
-## Dashboard 2: Performance Analysis
+### Dashboard 2: Performance Analysis
 <p align="center">
  <img width="1362" height="846" alt="1000202905" src="https://github.com/user-attachments/assets/844b8d90-d401-4526-842d-6d0e12aa0e43" />
  
@@ -343,7 +343,7 @@ The dashboard relies entirely on Pivot Tables to process the backend data:
 
 ---
 
-## Dashboard 3: Trading Activity & Risk
+### Dashboard 3: Trading Activity & Risk
 <p align="center">  
 <img width="1367" height="847" alt="1000202904" src="https://github.com/user-attachments/assets/3c378503-5217-4791-a457-d6351401358b" />
 
